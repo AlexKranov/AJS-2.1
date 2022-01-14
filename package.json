@@ -1,0 +1,49 @@
+{
+  "name": "ajs-2.1",
+  "version": "1.0.0",
+  "description": "AJS-2.1\r Домашнее задание к лекции «Модули»\r Важно: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "lint": "eslint . --fix",
+    "prettier": "prettier --write src/**/*.js",
+    "serve": "http-server src",
+    "dev": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKranov/AJS-2.1.git"
+  },
+  "author": "AlexKranov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKranov/AJS-2.1/issues"
+  },
+  "homepage": "https://github.com/AlexKranov/AJS-2.1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.0",
+    "mini-css-extract-plugin": "^2.4.7",
+    "prettier": "2.5.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "core-js": "^3.20.2"
+  },
+  "keywords": []
+}
